@@ -1,2 +1,2 @@
 # Promotion
-this repository contains an html for home decor
+This repository contains an html for home decor
