@@ -1,0 +1,501 @@
+@font-face {
+    font-family: poppins;
+    src: url(Poppins-Regular.ttf);
+}
+@font-face {
+    font-family: cara;
+    src: url(MacondoSwashCaps-Regular\ \(1\).ttf);
+}
+@font-face {
+    font-family: ikea;
+    src: url(FatSansRound.ttf);
+}
+@font-face {
+    font-family: ds;
+    src: url(magical-stylish-sans-serif-demo-font/MagicalStylishSansSerifDemo-qLKq.otf);
+} 
+@font-face {
+    font-family: cormorant;
+    src: url(CormorantGaramond-VariableFont_wght.ttf);
+}
+#para2{
+    font-family: ds;
+}
+
+
+body{
+    padding: 5% 8%;
+    background-color: white;
+    overflow-x: hidden;
+    margin-left: 3%;
+   
+}
+
+.shape{
+    width: 800px;
+    background-color: #474747;
+    height: 600px;
+    right: -5%;
+    top: -10%;
+    border-radius: 50px;
+    transform: rotate(-33deg);
+    z-index: -1;
+    position: absolute;
+    margin-top: -1%;
+    margin-left: 5%;
+    overflow: hidden;
+}
+.beauty{
+    font-family: cormorant;
+}
+.icon2{
+    position: relative;
+    overflow: visible;
+    left:95%;
+    color: white;
+    
+}
+
+.homepage{
+    display: flex;
+    margin-left: 700px;
+    gap: 30px;  
+}
+.cara{
+    font-family: cara;
+    font-size: 200%;
+   
+}
+
+#home{
+    border: dashed 3px grey;
+}
+a {
+    text-decoration: none;
+    color: black;
+   
+}
+.youtube{
+    width: 50px;
+    margin-left: -30px;
+}
+#watch{
+    margin-top: 30px;
+    font-size: 20px;
+    font-family: poppins;
+}
+.content{
+    display: flex;
+    margin-top: 200px;
+    
+}
+
+#sentence{
+    font-size: 15px;
+}
+h1{
+    font-size: 400%;
+}
+.below{
+    gap: 30px;
+    display: flex;
+    font-size: 17px;
+  
+
+}
+.icon {
+    padding-top: 0%;
+    padding-left: 10%;
+    color: white;
+}
+.play i{
+    padding: 10px;
+    background-color: #A2A2A1;
+    color: black;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+.play {
+    background-color: #F7F5F2;
+    border: none;
+    color: black;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 50px;
+}
+
+button{
+    background-color: rgb(87, 85, 85);
+    color: white;
+    border-radius: 60px;
+    width: 200px;
+    height: 90px;
+    font-size: 18px;
+    margin-left: -25%;
+    font-family: poppins;
+
+}
+.actual{
+   
+    margin-top: -7px;
+    
+}
+.nums{
+    font-family:;
+    display: flex;
+    gap:4%;
+    font-size: 300%;
+    margin-top: -150px;
+}
+.description{
+    font-family: poppins;
+    display: flex;
+    font-size: 100%;
+    gap: 3.5%;
+    margin-top: -3%;
+}
+.image{
+     padding-left: 600px;
+}
+.image img{
+    border-radius: 20px;
+    width: 900px;
+    height: 800px;
+    margin-top: -19%;
+ 
+
+}
+.titles{
+    display: flex;
+    gap: 200px;
+    font-size: 50px;
+    margin-bottom: 200px;
+    margin-top: 250px;
+    color: darkgray;
+   
+}
+#para1{
+    font-family: ikea;
+}
+#para{
+    font-family: Mitr;
+}
+#para4{
+    font-family:  Libre Caslon Display;
+}
+h2 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 60px;
+   
+}
+.product-list {
+    display: flex;
+    gap: 190px;
+    
+   
+}
+.product {
+    background: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    position: relative;
+    width: 250px;
+    height: 550px;
+   
+}
+.product img {
+    width: 150%;
+    height: auto;
+    border-radius: 5px;
+    gap: 65%;
+}
+.name {
+    font-size: 14px;
+    margin: 10px 0;
+}
+.price {
+    font-size: 16px;
+    font-weight: bold;
+}
+.badge {
+    position: absolute;
+    top: 10px;
+    left: 20%;
+    background-color: white;
+    color: red;
+    font-size: 14px;
+    padding: 3px 7px;
+    border-radius: 5px;
+}
+.discount {
+    position: absolute;
+    top: 10px;
+    right: -30%;
+    background: white;
+    color: black;
+    font-size: 14px;
+    padding: 3px 7px;
+    border-radius: 5px;
+}
+.restyle {
+   
+    text-align: center;
+    font-size: 40px;
+    margin-top: 100px;
+    
+}
+.restyle h1 {
+    font-size: 50px;
+    font-weight: bold;
+}
+.restyle p {
+    font-size: 20px;
+    color: black;
+    
+
+}
+.promotion {
+    display: flex;
+   
+    gap: 600px;
+   
+
+
+}
+.image-container img {
+    width: 540px;
+  
+    margin-top: 10px;
+   
+}
+.text-container {
+    max-width: 700px;
+   
+    margin-top: 200px;
+}
+.subtext {
+    font-size: 12px;
+    text-transform: uppercase;
+    color: black;
+}
+.text-container h2 {
+    font-size: 60px;
+    font-weight: bold;
+    padding-left: 3px;
+}
+.text-container p {
+    font-size: 18px;
+    color:black;
+}
+.shop-btn {
+    background: white;
+    border: 2px solid black;
+   
+    font-size: 14px;
+    cursor: pointer;
+    margin-top: 10px;
+    border-radius: 60px;
+    color: black;
+    width: 200px;
+    margin-left: 8%;
+}
+.shop-btn:hover {
+    background: black;
+    color: white;
+}
+.sty {
+    display: flex;
+    gap: 600px;
+    margin-top: 190px;
+   
+}
+.sty-content {
+   
+}
+.sty-image img {
+    width: 600px;
+    height: 600px;
+    
+    border-radius: 10px;
+   
+    padding-right: 20px;
+}
+.substy {
+    font-size: 17px;
+    text-transform: uppercase;
+    color: gray;
+   
+}
+.sty-content h1 {
+    font-size: 55px;
+    font-weight: bold;
+}
+.sty-content p {
+    font-size: 19px;
+    color: black;
+}
+.buy-btn {
+    background: white;
+    border: 2px solid black;
+    padding: 10px 20px;
+    font-size: 14px;
+    cursor: pointer;
+    margin-top: 13px;
+    border-radius: 60px;
+    color: black;
+    width: 200px;
+    margin-left: 2%;
+}
+.buy-btn:hover {
+    background: black;
+    color: white;
+}
+h6 {
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 200px;
+}
+#benfit {
+    margin-left: 850px;
+    margin-top: auto;
+    margin-bottom: 200px;
+    font-size: 19px;
+}
+
+.con {
+    display: flex;
+    gap: 350px;
+    margin-left: 4%;
+    margin-bottom: 270px;
+}
+.text {
+   text-align: center;
+}
+.tile {
+    font-weight: bold;
+    font-size: 18px;
+    display: flex;
+    gap: 330px;
+    margin-left: 11.5%;
+    margin-bottom: auto;
+}
+.solid {
+    display: flex;
+    gap: 300px;
+    margin-left: 11%;
+    margin-bottom: 280px;
+    margin-top: auto;
+}
+#review {
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 25px;
+    margin-left: 700px;
+    font-weight: bold;
+}
+#opi {
+    margin-left: 850px;
+    margin-bottom: 100px;
+    font-size: 16px;
+
+}
+
+.imgs {
+    display: flex;
+
+    gap: 250px;
+
+}
+.tree img {
+    width: 600px;
+    height: 590px;
+    margin-left: 150px;
+    margin-bottom: 200px;
+}
+#to {
+    margin-left: 100px;
+}
+.both {
+    display: flex;
+    margin-left: 4%;
+    margin-bottom: 40px;
+}
+.picture{
+   
+    
+}
+#sort {
+    margin-left: ;
+    line-height: 35px;
+    margin-bottom: 8%;
+    font-size: 20px;
+}
+.three {
+    margin-top: 150px;
+    margin-left: -1%;
+
+
+}
+#copy{
+    font-family: CormorantGaramond;
+    width: 8%;
+    margin-bottom: -2%;
+}
+.services {
+    display: flex;
+    margin-left: 7%;
+    gap: 250px;
+    font-size: 20px;
+    margin-top: 100px;
+}
+.service1 {
+    line-height: 28px;
+}
+.service2 {
+    margin-right: 100px;
+    line-height: 28px;
+}
+.service3 {
+    margin-right: 100px;
+    line-height: 28px;
+}
+.service4 {
+    margin-right: 100px;
+    line-height: 28px;
+}
+.arr{
+    display: flex;
+    gap: 53%;
+    margin-left: -68%;
+}
+#arr1{
+    margin-left: 300px;
+}
+
+#lefti{
+    position: relative;
+    overflow: visible;
+    color: #d1cece;
+    font-size: 200%;
+    top:-10%
+
+    
+   
+}
+#righti{
+    position: relative;
+    overflow: visible;
+    font-size: 180%;
+    top:-10%
+}
+.aicon{
+    display: flex;
+    position: relative;
+    overflow: visible;
+    gap: 50%;
+    
+}
